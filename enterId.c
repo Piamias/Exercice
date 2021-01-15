@@ -4,14 +4,14 @@
 
 void id(Perso player[], int i)
 {
-	printf("\nEnter your first name\n");
+	printf("\nplayer[%d] enter your first name\n", (i + 1));
 	scanf("%s", player[i].fname);
-	printf("\nEnter your last name\n");
+	printf("\nPlayer[%d] enter your last name\n", (i + 1));
 	scanf("%s", player[i].lname);
-	printf("\nEnter your nationnality\n");
+	printf("\nPlayer[%d] enter your nationnality\n",(i + 1));
 	scanf("%s", player[i].nat);
-	printf("\nEnter your age\n");
+	printf("\nPlayer[%d] enter your age\n",(i + 1));
 	scanf("%d", &player[i].age);
-	printf("\nEnter your sexe\n");
+	printf("\nPlayer [%d] enter your sexe\n",(i + 1));
 	scanf("%s", player[i].sex);
 }
